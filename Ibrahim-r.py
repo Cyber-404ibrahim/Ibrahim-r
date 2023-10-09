@@ -170,7 +170,6 @@ def masuk():
     	jalan("[•] Isi dengan benar");exit()
     elif jeck in ('1','01'):
         jalan("\n%s[•] Masukan token untuk menghubungkan akun ke server"%(p))
-    	jeeck = raw_input("\n[•] Masukan token : ")
         if jeeck in(""):
         	jalan("%s[•] Isi token yang benar celeng"%(m));exit()
     	try:
